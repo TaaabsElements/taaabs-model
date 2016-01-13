@@ -1,0 +1,32 @@
+{
+  "name": "taaabs-model",
+  "version": "1.0.0",
+  "description": "`<taaabs-model>` is a set of Polymer Customs Elements to display a graphical representation of a KTBS Model.",
+  "keywords": [
+    "web-components",
+    "polymer",
+    "taaabs"
+  ],
+  "authors": [
+    "TaaabsTeam"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TaaabsElements/taaabs-model.git"
+  },
+  "main": "taaabs-model.html",
+  "license": "https://github.com/TaaabsElements/taaabs-model/LICENSE",
+  "dependencies": {
+    "polymer": "polymer/polymer#^1.0.0",
+		"taaabs-trace-to-model-behavior": "https://github.com/TaaabsElements/taaabs-trace-to-model-behavior.git",
+		"paper-material": "polymerelements/paper-material#^1.0.0",
+		"paper-button": "polymerelements/paper-button#^1.0.0",
+		"taaabs-model-display": "https://github.com/TaaabsElements/taaabs-model-display.git",
+		"taaabs-obsel-inspector-type": "https://github.com/TaaabsElements/taaabs-obsel-inspector-type.git"
+  },
+  "devDependencies": {
+    "iron-component-page": "polymerelements/iron-component-page#^1.0.0",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.0"
+  },
+  "ignore": []
+}
